@@ -1,0 +1,60 @@
+ body {
+      background-color: rgb(140, 140, 145);
+    }
+
+    /* form */
+    h2 {
+      color: crimson;
+      text-decoration: underline;
+    }
+
+    form {
+      border: 5px solid crimson;
+      background-color: #f2f2f2;
+      overflow: auto;
+      margin-left: 25%;
+      margin-right: 25%;
+      border-radius: 20px;
+    }
+
+    input{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      color: white;
+      padding: 14px 20px;
+      margin: 20px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 150px;
+    }
+
+    button#left {
+      background-color: blue;
+      float: left;
+    }
+
+    button#right {
+      background-color: green;
+      float: right;
+    }
+
+    button:hover {
+      outline: 5px auto crimson;
+    }
+
+    button#right[type="submit"]:active {
+      background-color: crimson;
+    }
+
+    button#left[type="submit"]:active {
+      background-color: crimson;
+    }
